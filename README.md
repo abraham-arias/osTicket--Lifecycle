@@ -1,49 +1,135 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+# osTicket — Ticket Lifecycle: Intake Through Resolution  
+This project demonstrates the complete lifecycle of a help desk ticket in **osTicket**, from initial submission by an end user through agent assignment, communication, escalation, and resolution.
 
+Understanding ticket workflows is essential for roles in **IT Support**, **Help Desk**, **Technical Support**, and **Junior System Administration**, as ticket management is a core daily responsibility.
 
-<h2>Environments and Technologies Used</h2>
+---
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+# 🧰 Environments & Technologies Used
+- Microsoft Azure (Virtual Machines / Compute)
+- Remote Desktop Protocol (RDP)
 - Internet Information Services (IIS)
+- osTicket (Admin Panel & Agent Panel)
 
-<h2>Operating Systems Used </h2>
+---
 
-- Windows 10</b> (21H2)
+# 💻 Operating System Used
+- **Windows 10 (21H2)**
 
-<h2>Ticket Lifecycle Stages</h2>
+---
 
-- Intake
-- Assignment and Communication
-- Working the Issue
-- Resolution
+# 🎫 Ticket Lifecycle Stages  
+This lab demonstrates the following stages:
 
-<h2>Lifecycle Stages</h2>
-Karen is the end user opening a ticket. She is reporting that mobile banking is completely down, and so from the menu she selects that this is a Business Critical Outage. In the last tutorial I showed you how to create help topics like "Business Critical Outage" to help categorize tickets that are coming in.
-<p>
-<br />
-<img src="https://i.imgur.com/TpYYX7V.png" height="80%" width="80%" alt="Karen opens a ticket"/>
-</p>
-<p>
-Agents will be able to see live tickets in the agent panel. Queue managers will assign priority tickets to the appropriate agents as well as assigning proper SLAs, or changing departments if it is needed. Agents Like Jane Doe can post replies to tickets they are working on to explain what they are doing to resolve the issue.
-</p>
-<br />
+1. **Intake**  
+2. **Assignment & Communication**  
+3. **Working the Issue**  
+4. **Resolution & Closure**
 
-<img src="https://i.imgur.com/uL1sf3W.png" height="80%" width="80%" alt="open tickets"/>
-</p>
-<p>
-In this example we are setting the priority level of the ticket to Emergency since this issue is critical to the functioning of the business. We have changed the SLA plan and assigned the ticket to a top level technician. In some ticketing systems customers can set their own SLA plans. Jane Doe, the assigned Agent, posted a reply on the ticket stating that she along with the system administration team are working to resolve the issue.
-</p>
-<br />
-<img src="https://i.imgur.com/4f9MU45.png" height="80%" width="80%" alt="que manager"/>
-</p>
-<p>
-Once issues are resolved, the Agent can close the ticket. The tickets will be removed from the que and placed in a different tab labeled for closed tickets. There you can see the date and time tickets were resolved and the agent that closed the ticket.
-</p>
-<br />
-<img src="https://i.imgur.com/qeLzokM.png" height="80%" width="80%" alt="closed tickets"/>
+These are standard workflow stages that exist in virtually all enterprise help desk environments.
+
+---
+
+# 🛠️ Lifecycle Walkthrough (Realistic Scenario)
+
+## 🔹 Stage 1 — Ticket Intake (User Submits Request)
+
+Karen, an end user, submits a ticket reporting a **Business Critical Outage** involving mobile banking.
+
+She selects the appropriate help topic, which was previously configured to categorize high-severity issues.
+
+<br/>
+
+<img src="https://i.imgur.com/TpYYX7V.png" width="80%" alt="User opens a ticket"/>
+
+---
+
+## 🔹 Stage 2 — Assignment & Initial Communication
+
+Agents monitor live tickets within the **Agent Panel**.
+
+From here:
+
+- Queue managers assign tickets to appropriate departments or agents  
+- SLAs can be adjusted  
+- Priorities can be changed  
+- Notes and communication are added  
+
+Agent **Jane Doe** begins working on Karen's ticket and updates it with a status message.
+
+<br/>
+
+<img src="https://i.imgur.com/uL1sf3W.png" width="80%" alt="Open tickets"/>
+
+---
+
+## 🔹 Stage 3 — Working the Issue  
+The ticket is escalated:
+
+- Priority is set to **Emergency**  
+- SLA is modified to match severity  
+- Ticket assigned to a senior technician  
+- Internal communication tracks the status update  
+
+Agents communicate their actions directly inside the ticket for transparency and documentation.
+
+<br/>
+
+<img src="https://i.imgur.com/4f9MU45.png" width="80%" alt="Queue manager adjustments"/>
+
+---
+
+## 🔹 Stage 4 — Resolution & Ticket Closure
+
+After the issue is resolved, the technician closes the ticket.
+
+Closed tickets appear in a separate tab and retain important information such as:
+
+- Date/time of resolution  
+- Assigned agent  
+- SLA compliance  
+- Action history  
+
+This creates an auditable trail for IT management and reporting.
+
+<br/>
+
+<img src="https://i.imgur.com/qeLzokM.png" width="80%" alt="Closed tickets"/>
+
+---
+
+# 🎯 Skills Demonstrated
+
+### 🧩 Help Desk Operations  
+- Understanding of ticket workflows and lifecycle  
+- Assigning, escalating, and resolving support requests  
+- Managing SLAs and priorities  
+- Documenting actions within tickets
+
+### 💬 Communication & Documentation  
+- Adding internal notes and public replies  
+- Coordinating with users and technical teams  
+- Tracking ticket history for accountability
+
+### 🔧 Technical Support Fundamentals  
+- Categorizing issues using help topics  
+- Routing tickets to appropriate departments  
+- Using ticket systems to maintain service quality  
+
+---
+
+# 🏁 Summary
+This project demonstrates real-world help desk workflow management inside the osTicket platform.  
+Mastering ticket lifecycles is critical for:
+
+- IT Support Specialists  
+- Help Desk Technicians  
+- Desktop Support Technicians  
+- Junior System Administrators  
+
+This simulation shows your ability to handle ticket flow professionally from intake to resolution — one of the most important skills in IT support environments.
+
